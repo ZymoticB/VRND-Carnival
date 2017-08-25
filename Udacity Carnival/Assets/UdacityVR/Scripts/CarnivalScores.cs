@@ -43,6 +43,7 @@ public class CarnivalScores : MonoBehaviour {
 
 		if (plinkoPoints + wheelPoints + coinPoints >= TeddyBearPointsMin) {
 			TeddyBear.SetActive(true);
+            Timer.Instance.StopTimer();
 		}
 	}
 
