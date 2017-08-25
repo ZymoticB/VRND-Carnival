@@ -23,9 +23,9 @@ public class Timer : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+    void Update () {
         timerText.SetText(stopwatch.Elapsed.ToString());
-	}
+    }
 
     private void OnDestroy()
     {
